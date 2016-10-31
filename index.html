@@ -7,19 +7,20 @@
 </head>
 <body>
 
-    <h2 id="greeting" class="greeting">Welcome to Cat Clicker</h2>
+    <h2 class="greeting">Welcome to Cat Clicker - Part 2</h2>
 
-
-    <div class="photo-container">
-        <h3 id="photo-header">Please click on the cat</h3>
-        <img class="photo" src="images/cat.jpg">
-        <p>Photo courtesy of <a href="https://www.flickr.com/photos/poplinre/625069434/in/photostream/">poplinre</a>.</p>
-    </div>
-
-
-    <div class="counter-container">
-        <h3 id="counter-header">Cat Clicker Counter</h3>
-        <div id="counter"></div>
+    <h3 class="greeting">Please click on a cat</h3>
+    <div class="outer-container">
+        <div class="left-container">
+            <img class="photo" id="cat1" src="images/cat1.jpg">
+            <p>Photo courtesy of <a href="https://www.flickr.com/photos/poplinre/625069434/in/photostream/">poplinre</a>.</p>
+            <h3 id="counter-header">Cat 1 Clicker Counter: <span id="counter1"></span></h3>
+        </div>
+        <div class="right-container">
+            <img class="photo" id="cat2" src="images/cat2.jpg">
+            <p>Photo courtesy of <a href="https://www.flickr.com/photos/chewie/2290467335">chewie</a>.</p>
+            <h3 id="counter-header">Cat 2 Clicker Counter: <span id="counter2"></span></h3>
+        </div>
     </div>
 
     <script src="js/libs/jquery.min.js"></script>

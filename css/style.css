@@ -7,19 +7,23 @@ body {background-color: #CCC;}
     text-align: center;
 }
 
-.photo-container {
-    float: right;
-    width: 790px;
-    height: 600px;
+.photo {
+    max-height: 400px;
+}
+
+.left-container {
+    float: left;
+    display: block;
     padding: 10px;
-    margin-right: 10px;
+    width: 50%;
     background-color: rgba(255,255,255,0.7);
 }
 
-.counter-container {
+.right-container {
+    display: block;
     padding: 10px;
-    margin-right: 800px;
-    height: 600px;
+    margin-left: 50%;
+    width: 50%;
     background-color: rgba(255,255,255,0.7);
 }
 
