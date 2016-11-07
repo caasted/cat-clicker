@@ -7,22 +7,18 @@
 </head>
 <body>
 
-    <h2 class="greeting">Welcome to Cat Clicker - Part 2</h2>
+    <h2 class="greeting">Welcome to Cat Clicker Premium</h2>
+    <h3 class="greeting">Please choose a cat and start clicking</h3>
+    
+    <div class="display-container">
+        <h3 id="cat-name"></h3>
+        <img class="photo" id="cat" src="images/cat1.jpg">
+        <h3 id="counter-header">Clicker Counter: <span id="counter"></span></h3>
+    </div>
 
-    <h3 class="greeting">Please click on a cat</h3>
-    <div class="outer-container">
-        <div class="left-container">
-            <h3 id="cat1"></h3>
-            <img class="photo" id="cat1" src="images/cat1.jpg">
-            <p>Photo courtesy of <a href="https://www.flickr.com/photos/poplinre/625069434/in/photostream/">poplinre</a>.</p>
-            <h3 id="counter-header">Cat 1 Clicker Counter: <span id="counter1"></span></h3>
-        </div>
-        <div class="right-container">
-            <h3 id="cat2"></h3>
-            <img class="photo" id="cat2" src="images/cat2.jpg">
-            <p>Photo courtesy of <a href="https://www.flickr.com/photos/chewie/2290467335">chewie</a>.</p>
-            <h3 id="counter-header">Cat 2 Clicker Counter: <span id="counter2"></span></h3>
-        </div>
+    <div class="selection-container">
+        <h3 id="selector-header">Cat Options</h3>
+        <div class="selector" id="selector"></div>
     </div>
 
     <script src="js/libs/jquery.min.js"></script>

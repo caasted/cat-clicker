@@ -11,7 +11,7 @@ body {background-color: #CCC;}
     max-height: 400px;
 }
 
-.left-container {
+.display-container {
     float: left;
     display: block;
     padding: 10px;
@@ -19,7 +19,7 @@ body {background-color: #CCC;}
     background-color: rgba(255,255,255,0.7);
 }
 
-.right-container {
+.selection-container {
     display: block;
     padding: 10px;
     margin-left: 50%;
