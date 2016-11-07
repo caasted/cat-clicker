@@ -8,22 +8,22 @@ body {background-color: #CCC;}
 }
 
 .photo {
-    max-height: 400px;
+    width: 100%;
 }
 
 .display-container {
     float: left;
     display: block;
     padding: 10px;
-    width: 50%;
+    width: 80%;
     background-color: rgba(255,255,255,0.7);
 }
 
 .selection-container {
     display: block;
     padding: 10px;
-    margin-left: 50%;
-    width: 50%;
+    margin-left: 80%;
+    width: 20%;
     background-color: rgba(255,255,255,0.7);
 }
 
