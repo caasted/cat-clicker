@@ -114,7 +114,7 @@ $(function () {
             });
 
             $("#cancel-update").click(function (event) {
-                view.adminVisible = !view.adminVisible;
+                view.adminVisible = false;
                 view.renderAdmin();
             });
 
@@ -123,6 +123,8 @@ $(function () {
                     document.getElementById('photo').value, 
                     parseInt(document.getElementById('clicks').value));
                 view.renderViewer();
+                view.adminVisible = false;
+                view.renderAdmin();
             });
         }, 
         renderSelector: function() {
